@@ -10,7 +10,7 @@ body {
     resize: none;
     color: #000000;
     border-left: 1px solid black;
-    padding: 10px;
+    padding: 30px;
   }
   
   .jumbotron {
@@ -28,12 +28,13 @@ body {
   .time-block{
     text-align: center;
     border-radius: 15px;
+    border-left: 6px;
   }
   
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid white;
   }
   
   .hour {
@@ -63,10 +64,31 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
+    width: 50px;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+  #container {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+  }
+  .eventdes {
+    /* display: flex; */
+    background-color: lightgray;
+    color: black;
+    width: 50%;
+  }
+
+#columns {
+  justify-content: center;
   
+}
+.i {
+  color: white;
+  justify-content: center;
+
+}
